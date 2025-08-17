@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty - EduPlus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Edu<span>Plus</span></a>
+            </div>
+            <nav class="nav">
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About Us</a></li>
+                    <li class="nav-item"><a href="courses.html">Courses</a></li>
+                    <li class="nav-item active"><a href="faculty.html">Faculty</a></li>
+                    <li class="nav-item"><a href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Meet Our Faculty</h1>
+            <p>Learn from industry leaders and academic experts</p>
+        </div>
+    </section>
+
+    <section class="faculty-intro">
+        <div class="container">
+            <div class="intro-content">
+                <h2>World-Class Educators</h2>
+                <p>At EduPlus, we pride ourselves on our distinguished faculty who bring a wealth of knowledge, research expertise, and real-world experience to the classroom. Our professors are not just teachers but mentors committed to your success.</p>
+                <p>With faculty members hailing from top institutions and organizations around the world, you'll learn from the best minds in your field of study.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faculty-filter">
+        <div class="container">
+            <div class="filter-container">
+                <input type="radio" id="faculty-all" name="faculty-category" checked>
+                <label for="faculty-all">All Faculty</label>
+
+                <input type="radio" id="faculty-tech" name="faculty-category">
+                <label for="faculty-tech">Technology</label>
+
+                <input type="radio" id="faculty-business" name="faculty-category">
+                <label for="faculty-business">Business</label>
+
+                <input type="radio" id="faculty-design" name="faculty-category">
+                <label for="faculty-design">Design</label>
+
+                <input type="radio" id="faculty-health" name="faculty-category">
+                <label for="faculty-health">Health Sciences</label>
+
+                <input type="radio" id="faculty-humanities" name="faculty-category">
+                <label for="faculty-humanities">Humanities</label>
+            </div>
+        </div>
+    </section>
+
+    <section class="faculty-listing">
+        <div class="container">
+            <div class="faculty-grid">
+                <div class="faculty-card" data-category="technology">
+                    <div class="faculty-image">
+                        <img src="images/professor1.jpg" alt="Dr. Sarah Johnson">
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Sarah Johnson</h3>
+                        <p class="faculty-title">Professor of Computer Science</p>
+                        <p class="faculty-bio">Former lead data scientist at TechCorp with 15+ years of industry experience. Specializes in machine learning and AI applications.</p>
+                        <div class="faculty-meta">
+                            <span><i class="fas fa-book"></i> Data Science, AI</span>
+                            <span><i class="fas fa-graduation-cap"></i> PhD, MIT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="business">
+                    <div class="faculty-image">
+                        <img src="images/professor2.jpg" alt="Prof. Michael Chen">
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Michael Chen</h3>
+                        <p class="faculty-title">Associate Professor of Business</p>
+                        <p class="faculty-bio">Former CEO of a Fortune 500 company turned educator. Brings real-world business strategy experience to the classroom.</p>
+                        <div class="faculty-meta">
+                            <span><i class="fas fa-book"></i> Business Strategy, Leadership</span>
+                            <span><i class="fas fa-graduation-cap"></i> MBA, Harvard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="design">
+                    <div class="faculty-image">
+                        <img src="images/professor3.jpg" alt="Prof. Emma Rodriguez">
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Emma Rodriguez</h3>
+                        <p class="faculty-title">Professor of Design</p>
+                        <p class="faculty-bio">Award-winning designer with work featured in international exhibitions. Focuses on UX/UI and visual storytelling.</p>
+                        <div class="faculty-meta">
+                            <span><i class="fas fa-book"></i> UX Design, Visual Communication</span>
+                            <span><i class="fas fa-graduation-cap"></i> MFA, RISD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="technology">
+                    <div class="faculty-image">
+                        <img src="images/professor4.jpg" alt="Dr. James Wilson">
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. James Wilson</h3>
+                        <p class="faculty-title">Professor of Cybersecurity</p>
+                        <p class="faculty-bio">Former cybersecurity consultant for government agencies. Expert in network security and ethical hacking.</p>
+                        <div class="faculty-meta">
+                            <span><i class="fas fa-book"></i> Cybersecurity, Cryptography</span>
+                            <span><i class="fas fa-graduation-cap"></i> PhD, Stanford</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="health">
+                    <div class="faculty-image">
+                        <img src="images/professor5.jpg" alt="Dr. Lisa Park">
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Lisa Park</h3>
+                        <p class="faculty-title">Professor of Public Health</p>
+                        <p class="faculty-bio">Epidemiologist with field experience in global health initiatives. Focuses on community health strategies.</p>
+                        <div class="faculty-meta">
+                            <span><i class="fas fa-book"></i> Epidemiology, Global Health</span>
+                            <span><i class="fas fa-graduation-cap"></i> MD, PhD, Johns Hopkins</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="humanities">
+                    <div class="faculty-image">
+                        <img src="images/professor6.jpg" alt="Prof. David Miller">
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. David Miller</h3>
+                        <p class="faculty-title">Professor of Literature</p>
+                        <p class="faculty-bio">Published author and literary critic. Specializes in contemporary fiction and creative writing pedagogy.</p>
+                        <div class="faculty-meta">
+                            <span><i class="fas fa-book"></i> Creative Writing, Literary Analysis</span>
+                            <span><i class="fas fa-graduation-cap"></i> PhD, Oxford</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="business">
+                    <div class="faculty-image">
+                        <img src="images/professor7.jpg" alt="Prof. Anita Desai">
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Anita Desai</h3>
+                        <p class="faculty-title">Associate Professor of Marketing</p>
+                        <p class="faculty-bio">Digital marketing strategist with experience building brands for multinational corporations.</p>
+                        <div class="faculty-meta">
+                            <span><i class="fas fa-book"></i> Digital Marketing, Brand Strategy</span>
+                            <span><i class="fas fa-graduation-cap"></i> MBA, INSEAD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card" data-category="technology">
+                    <div class="faculty-image">
+                        <img src="images/professor8.jpg" alt="Dr. Robert Kim">
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Robert Kim</h3>
+                        <p class="faculty-title">Professor of Software Engineering</p>
+                        <p class="faculty-bio">Lead developer of several open-source projects with contributions to major tech stacks.</p>
+                        <div class="faculty-meta">
+                            <span><i class="fas fa-book"></i> Full Stack Development, DevOps</span>
+                            <span><i class="fas fa-graduation-cap"></i> PhD, Carnegie Mellon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faculty-highlights">
+        <div class="container">
+            <div class="section-header">
+                <h2>Faculty Highlights</h2>
+                <p>Recent achievements and contributions from our educators</p>
+            </div>
+            <div class="highlights-grid">
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Teaching Excellence Award</h3>
+                    <p>Dr. Sarah Johnson received the 2023 National Teaching Excellence Award for her innovative AI curriculum.</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>New Publication</h3>
+                    <p>Prof. David Miller's latest novel was shortlisted for the prestigious Booker Prize.</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Research Grant</h3>
+                    <p>Dr. Lisa Park secured a $2M NIH grant for her research on pandemic preparedness.</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Patent Awarded</h3>
+                    <p>Dr. Robert Kim's new cybersecurity algorithm received a US patent in January 2023.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta cta-light">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Learn From the Best</h2>
+                <p>Join our community of learners and be mentored by industry-leading experts</p>
+                <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>EduPlus</h3>
+                    <p>Providing quality education since 1995. Our mission is to make learning accessible to everyone.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education St, Boston, MA 02115</li>
+                        <li><i class="fas fa-phone"></i> (617) 555-0123</li>
+                        <li><i class="fas fa-envelope"></i> info@eduplus.edu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EduPlus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

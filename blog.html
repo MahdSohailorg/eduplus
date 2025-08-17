@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - EduPlus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Edu<span>Plus</span></a>
+            </div>
+            <nav class="nav">
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About Us</a></li>
+                    <li class="nav-item"><a href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a href="faculty.html">Faculty</a></li>
+                    <li class="nav-item"><a href="admissions.html">Admissions</a></li>
+                    <li class="nav-item active"><a href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>EduPlus Blog</h1>
+            <p>Insights, news, and resources for lifelong learners</p>
+        </div>
+    </section>
+
+    <section class="blog-categories">
+        <div class="container">
+            <div class="category-filter">
+                <input type="radio" id="all-posts" name="category" checked>
+                <label for="all-posts">All Posts</label>
+
+                <input type="radio" id="news" name="category">
+                <label for="news">News</label>
+
+                <input type="radio" id="tips" name="category">
+                <label for="tips">Study Tips</label>
+
+                <input type="radio" id="career" name="category">
+                <label for="career">Career Advice</label>
+
+                <input type="radio" id="events" name="category">
+                <label for="events">Events</label>
+
+                <input type="radio" id="stories" name="category">
+                <label for="stories">Success Stories</label>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-post">
+        <div class="container">
+            <div class="featured-grid">
+                <div class="featured-image">
+                    <img src="images/featured-post.jpg" alt="Featured Post">
+                    <div class="post-category">News</div>
+                </div>
+                <div class="featured-content">
+                    <div class="post-meta">
+                        <span class="post-date">June 15, 2023</span>
+                        <span class="post-author">By Dr. Sarah Johnson</span>
+                    </div>
+                    <h2>EduPlus Ranked Among Top 10 Institutions for Online Learning</h2>
+                    <p>We're proud to announce that EduPlus has been recognized as one of the top 10 institutions for
+                        online education in the 2025 Global Education Rankings. This achievement reflects our commitment
+                        to delivering high-quality, accessible education to students worldwide...</p>
+                    <a href="#" class="btn btn-small">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-listing">
+        <div class="container">
+            <div class="blog-grid">
+                <article class="blog-card" data-category="tips">
+                    <div class="blog-image">
+                        <img src="images/blog1.png" alt="Study Tips">
+                        <div class="post-category">Study Tips</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date">June 10, 2023</span>
+                            <span class="post-author">By Prof. Michael Chen</span>
+                        </div>
+                        <h3>10 Effective Study Techniques Backed by Science</h3>
+                        <p>Discover research-proven methods to enhance your learning efficiency and retention, from
+                            spaced repetition to the Feynman technique.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="career">
+                    <div class="blog-image">
+                        <img src="images/blog2.jpg" alt="Career Advice">
+                        <div class="post-category">Career Advice</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date">May 28, 2025</span>
+                            <span class="post-author">By Career Services Team</span>
+                        </div>
+                        <h3>How to Build a Standout Portfolio in 2025</h3>
+                        <p>Whether you're in design, tech, or business, a strong portfolio can set you apart. Learn what
+                            employers are looking for this year.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="events">
+                    <div class="blog-image">
+                        <img src="images/blog3.jpg" alt="Events">
+                        <div class="post-category">Events</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date">May 20, 2023</span>
+                            <span class="post-author">By Events Team</span>
+                        </div>
+                        <h3>Annual Tech Symposium: Highlights and Key Takeaways</h3>
+                        <p>Recapping the most insightful presentations and discussions from our biggest tech event of
+                            the year featuring industry leaders.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="stories">
+                    <div class="blog-image">
+                        <img src="images/blog4.jpg" alt="Success Stories">
+                        <div class="post-category">Success Stories</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date">May 12, 2023</span>
+                            <span class="post-author">By Alumni Relations</span>
+                        </div>
+                        <h3>From Student to CEO: Emma Rodriguez's Journey</h3>
+                        <p>How our Business Administration graduate built a successful sustainable fashion startup right
+                            after completing her studies.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="news">
+                    <div class="blog-image">
+                        <img src="images/blog5.jpg" alt="News">
+                        <div class="post-category">News</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date">April 30, 2023</span>
+                            <span class="post-author">By Academic Affairs</span>
+                        </div>
+                        <h3>New Cybersecurity Program Launches Fall 2023</h3>
+                        <p>Responding to industry demand, we're introducing a comprehensive cybersecurity program with
+                            hands-on training components.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="tips">
+                    <div class="blog-image">
+                        <img src="images/blog6.jpg" alt="Study Tips">
+                        <div class="post-category">Study Tips</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="post-date">April 22, 2023</span>
+                            <span class="post-author">By Learning Center Staff</span>
+                        </div>
+                        <h3>Balancing Work and Study: Strategies for Success</h3>
+                        <p>Practical advice for working professionals pursuing further education without burning out.
+                        </p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <a href="#" class="page-link next">Next <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest blog posts, course updates, and educational resources.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-topics">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Topics</h2>
+                <p>Explore our most-read blog categories</p>
+            </div>
+            <div class="topics-grid">
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Tech Trends</h3>
+                    <p>The latest in technology and digital innovation</p>
+                    <span class="topic-count">24 Articles</span>
+                </a>
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Career Growth</h3>
+                    <p>Advancing your professional journey</p>
+                    <span class="topic-count">18 Articles</span>
+                </a>
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Learning Science</h3>
+                    <p>How we learn and how to learn better</p>
+                    <span class="topic-count">15 Articles</span>
+                </a>
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Education</h3>
+                    <p>Perspectives on education worldwide</p>
+                    <span class="topic-count">12 Articles</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>EduPlus</h3>
+                    <p>Providing quality education since 1995. Our mission is to make learning accessible to everyone.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education St, Boston, MA 02115</li>
+                        <li><i class="fas fa-phone"></i> (617) 555-0123</li>
+                        <li><i class="fas fa-envelope"></i> info@eduplus.edu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EduPlus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

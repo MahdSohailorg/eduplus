@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - EduPlus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Edu<span>Plus</span></a>
+            </div>
+            <nav class="nav">
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About Us</a></li>
+                    <li class="nav-item active"><a href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a href="faculty.html">Faculty</a></li>
+                    <li class="nav-item"><a href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Courses</h1>
+            <p>Explore our comprehensive range of programs designed for your success</p>
+        </div>
+    </section>
+
+    <section class="course-filters">
+        <div class="container">
+            <div class="filter-container">
+                <input type="radio" id="all" name="category" checked>
+                <label for="all">All Courses</label>
+
+                <input type="radio" id="technology" name="category">
+                <label for="technology">Technology</label>
+
+                <input type="radio" id="business" name="category">
+                <label for="business">Business</label>
+
+                <input type="radio" id="design" name="category">
+                <label for="design">Design</label>
+
+                <input type="radio" id="health" name="category">
+                <label for="health">Health Sciences</label>
+
+                <input type="radio" id="humanities" name="category">
+                <label for="humanities">Humanities</label>
+            </div>
+        </div>
+    </section>
+
+    <section class="course-listing">
+        <div class="container">
+            <div class="course-grid">
+                <div class="course-card" data-category="technology">
+                    <div class="course-image">
+                        <img src="images/course1.png" alt="Data Science">
+                        <div class="course-category">Technology</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Data Science Fundamentals</h3>
+                        <p>Master the essential skills for analyzing and interpreting complex data with Python, R, and
+                            machine learning.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 12 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Advanced</span>
+                            <span><i class="fas fa-dollar-sign"></i> $1,200</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="business">
+                    <div class="course-image">
+                        <img src="images/course2.png" alt="Business Administration">
+                        <div class="course-category">Business</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Business Administration</h3>
+                        <p>Develop leadership skills and strategic thinking for business success in today's competitive
+                            environment.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 16 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                            <span><i class="fas fa-dollar-sign"></i> $1,500</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="design">
+                    <div class="course-image">
+                        <img src="images/course3.png" alt="Graphic Design">
+                        <div class="course-category">Design</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Graphic Design Masterclass</h3>
+                        <p>Learn industry-standard tools and techniques for visual communication and branding.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 10 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Beginner</span>
+                            <span><i class="fas fa-dollar-sign"></i> $950</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="technology">
+                    <div class="course-image">
+                        <img src="images/course4.png" alt="Web Development">
+                        <div class="course-category">Technology</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Full Stack Web Development</h3>
+                        <p>Build complete web applications with modern frameworks like React, Node.js, and MongoDB.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 14 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                            <span><i class="fas fa-dollar-sign"></i> $1,350</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="health">
+                    <div class="course-image">
+                        <img src="images/course5.png" alt="Public Health">
+                        <div class="course-category">Health Sciences</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Public Health Essentials</h3>
+                        <p>Understand the core principles of public health and community wellness strategies.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 8 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Beginner</span>
+                            <span><i class="fas fa-dollar-sign"></i> $850</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="humanities">
+                    <div class="course-image">
+                        <img src="images/course6.png" alt="Creative Writing">
+                        <div class="course-category">Humanities</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Creative Writing Workshop</h3>
+                        <p>Develop your unique voice and master storytelling techniques across genres.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 6 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> All Levels</span>
+                            <span><i class="fas fa-dollar-sign"></i> $650</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="business">
+                    <div class="course-image">
+                        <img src="images/course7.png" alt="Digital Marketing">
+                        <div class="course-category">Business</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Digital Marketing Strategy</h3>
+                        <p>Learn to create effective digital campaigns across social media, SEO, and email marketing.
+                        </p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 8 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                            <span><i class="fas fa-dollar-sign"></i> $1,100</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="technology">
+                    <div class="course-image">
+                        <img src="images/course8.png" alt="Cybersecurity">
+                        <div class="course-category">Technology</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Cybersecurity Fundamentals</h3>
+                        <p>Protect systems and networks from digital attacks with essential security practices.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 10 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Advanced</span>
+                            <span><i class="fas fa-dollar-sign"></i> $1,400</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="course-benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Our Courses Stand Out</h2>
+                <p>What makes EduPlus the right choice for your education</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Expert-Led Instruction</h3>
+                    <p>Learn from industry professionals with real-world experience in their fields.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Hands-On Projects</h3>
+                    <p>Apply what you learn through practical assignments and portfolio-worthy projects.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Career Networking</h3>
+                    <p>Connect with professionals and alumni through our extensive industry network.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Recognized Certification</h3>
+                    <p>Earn certificates that are valued by employers worldwide.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Peer Collaboration</h3>
+                    <p>Work with diverse classmates on team projects and discussions.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Flexible Learning</h3>
+                    <p>Study at your own pace with online and hybrid course options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta cta-dark">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Still Deciding on a Course?</h2>
+                <p>Our advisors can help you choose the perfect program for your goals</p>
+                <a href="contact.html" class="btn btn-primary">Get Guidance</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>EduPlus</h3>
+                    <p>Providing quality education since 1995. Our mission is to make learning accessible to everyone.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education St, Boston, MA 02115</li>
+                        <li><i class="fas fa-phone"></i> (617) 555-0123</li>
+                        <li><i class="fas fa-envelope"></i> info@eduplus.edu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EduPlus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

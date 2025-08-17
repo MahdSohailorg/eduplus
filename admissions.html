@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - EduPlus</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Edu<span>Plus</span></a>
+            </div>
+            <nav class="nav">
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About Us</a></li>
+                    <li class="nav-item"><a href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a href="faculty.html">Faculty</a></li>
+                    <li class="nav-item active"><a href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>Start your journey with EduPlus today</p>
+        </div>
+    </section>
+
+    <section class="admission-intro">
+        <div class="container">
+            <div class="intro-content">
+                <h2>Your Future Starts Here</h2>
+                <p>At EduPlus, we're committed to making quality education accessible to all qualified students. Our admissions process is designed to be straightforward and transparent, helping you take the first step toward achieving your academic and career goals.</p>
+                <p>Whether you're a recent high school graduate, a working professional looking to upskill, or an international student seeking world-class education, we have a place for you.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="admission-process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Admission Process</h2>
+                <p>Follow these simple steps to join our community</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-tracker">
+                    <div class="tracker-line"></div>
+                    <div class="tracker-dots">
+                        <div class="tracker-dot active" data-step="1"></div>
+                        <div class="tracker-dot" data-step="2"></div>
+                        <div class="tracker-dot" data-step="3"></div>
+                        <div class="tracker-dot" data-step="4"></div>
+                        <div class="tracker-dot" data-step="5"></div>
+                    </div>
+                </div>
+                <div class="process-content">
+                    <div class="process-step active" data-step="1">
+                        <h3>1. Explore Programs</h3>
+                        <p>Browse our course catalog to find the program that aligns with your goals. Attend an information session or schedule a campus tour to learn more.</p>
+                        <div class="step-actions">
+                            <a href="courses.html" class="btn btn-small">View Courses</a>
+                            <button class="btn btn-small btn-next" data-next="2">Next Step</button>
+                        </div>
+                    </div>
+                    <div class="process-step" data-step="2">
+                        <h3>2. Check Requirements</h3>
+                        <p>Review the admission requirements for your chosen program. These may include academic transcripts, test scores, letters of recommendation, or a personal statement.</p>
+                        <div class="requirements-list">
+                            <div class="requirement-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Completed application form</span>
+                            </div>
+                            <div class="requirement-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Official transcripts</span>
+                            </div>
+                            <div class="requirement-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Statement of purpose</span>
+                            </div>
+                            <div class="requirement-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Letters of recommendation (2)</span>
+                            </div>
+                            <div class="requirement-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Application fee</span>
+                            </div>
+                        </div>
+                        <div class="step-actions">
+                            <button class="btn btn-small btn-prev" data-prev="1">Previous</button>
+                            <button class="btn btn-small btn-next" data-next="3">Next Step</button>
+                        </div>
+                    </div>
+                    <div class="process-step" data-step="3">
+                        <h3>3. Submit Application</h3>
+                        <p>Complete and submit your application through our online portal. Be sure to include all required documents and pay the application fee.</p>
+                        <div class="application-options">
+                            <div class="application-option">
+                                <h4>Domestic Students</h4>
+                                <p>Application fee: $50</p>
+                                <a href="#" class="btn btn-small">Apply Now</a>
+                            </div>
+                            <div class="application-option">
+                                <h4>International Students</h4>
+                                <p>Application fee: $75</p>
+                                <a href="#" class="btn btn-small">Apply Now</a>
+                            </div>
+                        </div>
+                        <div class="step-actions">
+                            <button class="btn btn-small btn-prev" data-prev="2">Previous</button>
+                            <button class="btn btn-small btn-next" data-next="4">Next Step</button>
+                        </div>
+                    </div>
+                    <div class="process-step" data-step="4">
+                        <h3>4. Application Review</h3>
+                        <p>Our admissions committee will carefully review your application. This process typically takes 2-4 weeks. Some programs may require an interview.</p>
+                        <div class="review-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">Week 1</div>
+                                <div class="timeline-content">
+                                    <h4>Initial Screening</h4>
+                                    <p>Verification of documents and requirements</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">Week 2-3</div>
+                                <div class="timeline-content">
+                                    <h4>Committee Review</h4>
+                                    <p>Evaluation by program faculty</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">Week 4</div>
+                                <div class="timeline-content">
+                                    <h4>Decision Made</h4>
+                                    <p>Notification sent to applicant</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-actions">
+                            <button class="btn btn-small btn-prev" data-prev="3">Previous</button>
+                            <button class="btn btn-small btn-next" data-next="5">Next Step</button>
+                        </div>
+                    </div>
+                    <div class="process-step" data-step="5">
+                        <h3>5. Enrollment</h3>
+                        <p>Congratulations! If accepted, you'll receive an offer letter with next steps. Secure your spot by submitting your enrollment deposit and completing registration.</p>
+                        <div class="enrollment-checklist">
+                            <div class="checklist-item">
+                                <input type="checkbox" id="accept-offer" class="checklist-checkbox">
+                                <label for="accept-offer">Accept admission offer</label>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="submit-deposit" class="checklist-checkbox">
+                                <label for="submit-deposit">Submit enrollment deposit</label>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="register-courses" class="checklist-checkbox">
+                                <label for="register-courses">Register for courses</label>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="attend-orientation" class="checklist-checkbox">
+                                <label for="attend-orientation">Attend orientation</label>
+                            </div>
+                        </div>
+                        <div class="step-actions">
+                            <button class="btn btn-small btn-prev" data-prev="4">Previous</button>
+                            <a href="#" class="btn btn-small">Complete Enrollment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="admission-requirements">
+        <div class="container">
+            <div class="requirements-grid">
+                <div class="requirements-content">
+                    <h2>Admission Requirements</h2>
+                    <p>Our admission criteria vary by program level to ensure students are prepared for the academic rigor of their chosen course of study.</p>
+                    
+                    <div class="accordion">
+                        <input type="radio" name="accordion" id="undergrad" checked>
+                        <label for="undergrad">Undergraduate Programs</label>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>High school diploma or equivalent</li>
+                                <li>Minimum GPA of 2.5 (on a 4.0 scale)</li>
+                                <li>Official high school transcripts</li>
+                                <li>SAT/ACT scores (optional for 2023-2024)</li>
+                                <li>Personal statement (500 words)</li>
+                            </ul>
+                        </div>
+                        
+                        <input type="radio" name="accordion" id="graduate">
+                        <label for="graduate">Graduate Programs</label>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>Bachelor's degree from accredited institution</li>
+                                <li>Minimum GPA of 3.0 (on a 4.0 scale)</li>
+                                <li>Official transcripts from all colleges attended</li>
+                                <li>GRE/GMAT scores (program dependent)</li>
+                                <li>Statement of purpose</li>
+                                <li>Two letters of recommendation</li>
+                                <li>Professional resume/CV</li>
+                            </ul>
+                        </div>
+                        
+                        <input type="radio" name="accordion" id="international">
+                        <label for="international">International Students</label>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>All standard program requirements</li>
+                                <li>Proof of English proficiency (TOEFL/IELTS)</li>
+                                <li>Evaluation of foreign transcripts</li>
+                                <li>Financial documentation</li>
+                                <li>Copy of passport</li>
+                            </ul>
+                        </div>
+                        
+                        <input type="radio" name="accordion" id="transfer">
+                        <label for="transfer">Transfer Students</label>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>Official transcripts from all colleges attended</li>
+                                <li>Minimum GPA of 2.0 for associate, 2.5 for bachelor's</li>
+                                <li>Course descriptions for transfer evaluation</li>
+                                <li>Good standing at previous institution</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="requirements-image">
+                    <img src="images/admissions-image.jpg" alt="Students on campus">
+                    <div class="image-overlay">
+                        <h3>Need Help With Your Application?</h3>
+                        <p>Our admissions counselors are here to guide you through every step.</p>
+                        <a href="contact.html" class="btn btn-small">Contact Admissions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="important-dates">
+        <div class="container">
+            <div class="section-header">
+                <h2>Important Dates & Deadlines</h2>
+                <p>Mark your calendar for key admission timelines</p>
+            </div>
+            <div class="dates-grid">
+                <div class="date-item">
+                    <div class="date-circle">
+                        <div class="date-month">Aug</div>
+                        <div class="date-day">15</div>
+                    </div>
+                    <div class="date-content">
+                        <h3>Fall Semester Application Deadline</h3>
+                        <p>Final deadline for domestic students applying for Fall 2023.</p>
+                    </div>
+                </div>
+                <div class="date-item">
+                    <div class="date-circle">
+                        <div class="date-month">Sep</div>
+                        <div class="date-day">5</div>
+                    </div>
+                    <div class="date-content">
+                        <h3>Fall Semester Begins</h3>
+                        <p>First day of classes for Fall 2023 semester.</p>
+                    </div>
+                </div>
+                <div class="date-item">
+                    <div class="date-circle">
+                        <div class="date-month">Nov</div>
+                        <div class="date-day">1</div>
+                    </div>
+                    <div class="date-content">
+                        <h3>Spring Priority Deadline</h3>
+                        <p>Priority application deadline for Spring 2024 enrollment.</p>
+                    </div>
+                </div>
+                <div class="date-item">
+                    <div class="date-circle">
+                        <div class="date-month">Dec</div>
+                        <div class="date-day">15</div>
+                    </div>
+                    <div class="date-content">
+                        <h3>Spring Final Deadline</h3>
+                        <p>Final application deadline for Spring 2024 semester.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="financial-aid">
+        <div class="container">
+            <div class="aid-grid">
+                <div class="aid-image">
+                    <img src="images/financial-aid.jpg" alt="Financial aid information">
+                </div>
+                <div class="aid-content">
+                    <h2>Financial Aid & Scholarships</h2>
+                    <p>We're committed to making education affordable. Explore the various financial support options available to qualified students.</p>
+                    <div class="aid-options">
+                        <div class="aid-option">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Merit Scholarships</h3>
+                            <p>Awarded based on academic achievement and potential.</p>
+                        </div>
+                        <div class="aid-option">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <h3>Need-Based Grants</h3>
+                            <p>Financial assistance for students with demonstrated need.</p>
+                        </div>
+                        <div class="aid-option">
+                            <i class="fas fa-briefcase"></i>
+                            <h3>Work-Study Programs</h3>
+                            <p>Part-time employment opportunities on campus.</p>
+                        </div>
+                        <div class="aid-option">
+                            <i class="fas fa-university"></i>
+                            <h3>Federal Student Aid</h3>
+                            <p>Assistance with completing FAFSA and loan applications.</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn About Financial Aid</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta cta-dark">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Apply?</h2>
+                <p>Begin your application today and take the first step toward your future.</p>
+                <a href="#" class="btn btn-primary">Start Application</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>EduPlus</h3>
+                    <p>Providing quality education since 1995. Our mission is to make learning accessible to everyone.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education St, Boston, MA 02115</li>
+                        <li><i class="fas fa-phone"></i> (617) 555-0123</li>
+                        <li><i class="fas fa-envelope"></i> info@eduplus.edu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EduPlus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
